@@ -1,19 +1,19 @@
 print("******************************************************")
 print("WELCOME TO BMI  CALCULATOR ")
 print("******************************************************")
-Peso = float(input("INFORME UM PESO:"))
-Altura = float(input("INFORME UMA ALTURA"))
+Peso = float(input("Enter your Weight:"))
+Altura = float(input("Enter your Height"))
 IMC = Peso / (Altura * Altura)
 if (IMC < 18.5):
-       print(f"{IMC:.5f} YOU ARE thin")
+       print(f"{IMC:.5f} you are thin")
 elif (IMC < 24.5):
-        print(f"{IMC:.5f} YOU ARE normal")
+        print(f"{IMC:.5f} you are normal")
 elif (IMC < 29.9):
-    print(f"{IMC:.5} YOU ARE overweight I")
+    print(f"{IMC:.5} you are overweight I")
 elif (IMC < 34.9):
-    print(f"{IMC:.5}YOU ARE obese I")
+    print(f"{IMC:.5} you areobese I")
 elif (IMC < 39.9):
-    print(f"{IMC:.5}YOU ARE obese II")
+    print(f"{IMC:.5} you areobese II")
 elif(IMC > 40):
     print("YOU ARE morbidly obese III")
 
