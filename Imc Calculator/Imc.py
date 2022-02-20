@@ -2,7 +2,7 @@ print("******************************************************")
 print("WELCOME TO BMI  CALCULATOR ")
 print("******************************************************")
 Peso = float(input("Enter your Weight:"))
-Altura = float(input("Enter your Height"))
+Altura = float(input("Enter your Height:"))
 IMC = Peso / (Altura * Altura)
 if (IMC < 18.5):
        print(f"{IMC:.5f} you are thin")
