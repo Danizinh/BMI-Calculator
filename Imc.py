@@ -1,21 +1,15 @@
-print("******************************************************")
-print("WELCOME TO BMI  CALCULATOR ")
-print("******************************************************")
-Weight = float(input("Enter your Weight:"))
-Height = float(input("Enter your Height:"))
-BMI = Weight / (Height * Height)
-if (BMI < 18.5):
-       print(f"{BMI:.5f} you are thin")
-elif (BMI < 24.5):
-        print(f"{BMI:.5f} you are normal")
-elif (BMI < 29.9):
-    print(f"{BMI:.5} you are overweight I")
-elif (BMI < 34.9):
-    print(f"{BMI:.5} you areobese I")
-elif (BMI < 39.9):
-    print(f"{BMI:.5} you areobese II")
-elif(BMI > 40):
-    print("YOU ARE morbidly obese III")
-print("******************************************************")
-print("END TO CALCULATOR")
-print("******************************************************")
+peso = float(input("Qual é seu peso?(kg)"))
+altura = float(input("Qual é sua altura(m)"))
+IMC = peso / (altura * altura)
+if (IMC < 18.5):
+       print(f" PARABENS, você está ABAIXO do PESO NORMAL {IMC:.2f} ")
+elif (IMC < 24.5):
+        print(f"PARABENS,você está na Faixa de PESO normal {IMC:.2f}")
+elif (IMC < 29.9):
+    print(f" você está com  excesso de peso I {IMC:.2Ff}")
+elif (IMC < 34.9):
+    print(f" você está em OBESIDADE I {IMC:.2f}")
+elif (IMC < 39.9):
+    print(f" você está em OBESIDADE  II {IMC:.2f}")
+elif(IMC > 40):
+    print("você está em OBESIDADE MORBIDO  III")
